@@ -21,6 +21,7 @@ import static org.springframework.http.MediaType.IMAGE_PNG_VALUE;
 @RestController
 @RequestMapping("/server")
 @RequiredArgsConstructor
+@CrossOrigin("*")
 public class ServerResource {
 
     private final ServerServiceImplementation serverServiceImplementation;
